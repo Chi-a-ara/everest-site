@@ -41,7 +41,6 @@ function Navbar() {
   const links = [
     { label: "Sobre", href: "#sobre" },
     { label: "Trajetória", href: "#trajetoria" },
-    { label: "Clientes", href: "#clientes" },
     { label: "Contato", href: "#contato" },
   ];
 
@@ -523,9 +522,7 @@ export default function Home() {
       <HeroSection />
       <SobreSection />
       <TrajetoriaSection />
-      <ClientesSection />
-      {/* Investimentos section hidden per request */}
-      <ContatoSection />
+      {/* Clientes and Contato sections removed per request */}
       <Footer />
     </div>
   );
